@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3dcfc8ab-cd38-4e4f-ac29-1ad2ad0070ae" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="HTTP Request" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1zN5H0HsQ3TN5hmAaA5d6yYc5mx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Studia\sem7\jee\lab1\best-bet\src\main\liberty" />
+      <recent name="D:\Studia\sem7\jee\lab1\best-bet\src\main" />
+      <recent name="D:\Studia\sem7\jee\lab1\best-bet\src\main\java\liberty\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.pg.eti.jee.bestbet.user.servlet" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.pg.eti.jee.bestbet.user.dto" />
+      <recent name="pl.pg.eti.jee.bestbet.coupon.entity" />
+      <recent name="pl.pg.eti.jee.bestbet.bet" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="multipart/form-data; boundary=boundary" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke" />
+          <option name="urlPath" value="" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="--boundary&#10;Content-Disposition: form-data; name=&quot;avatar&quot;; filename=&quot;koala.jpg'&#13;&#10;˙Ř˙ŕJFIF˙Ű„&#10;!!!&quot;!-$&quot;$*!&amp;7%*.1444#:?:3&gt;-3413!#*33333333333333333333333333333333333333333333333333˙ŔÂ&quot;˙Ä˙ÄB!1A&quot;Qa2q�‘ˇ±BRÁŃđ#r3bńáC˘Â4DS‚’˛ň˙Ä˙Ä#!1A&quot;Qq2Ba˙Ú?ĆŔFŔGtK�%‚^-Nh‰&#10;`A‚+”VX´jÎEây‡ Ť4č©`6íDŃYH°‰!§„ü5iy†€Ö$~™÷�ú.&#13;¤FZj�ş�†ígß§¬)…©ŮK�ü;3Q€R?1żÎáŕ´˙�f&quot;Ňlű†ýý~�Đu�)˘](K°)RTĎ†Ě{·x;‰L’é3T·%”e„‹‹Ä\n@,ĹÄ\Â'tü¨F•âöźŕŮ�&#10;*ó‚š®/P&amp;&lt;ťń4ô,Ś˘“ş\»%ś†)b:âţŹăť*HÜX‚QWpŘďhsFč6·á‰˛Ř˝LC]Źĺ=űâętŞ–HPfo¬=§âYE/â¤­®ÎCĐäov:Ĺ~+Â9iSVŢbÎI¶ß¬NX~ŽR-1ŤfÉ ŕ¶C†łÚ&lt;•*˘dµ®¤¨âôúJS�Ó�h€jŘÍ@mJÂD-ńJŤĹŕ·ť�™ĺŘâ')g1žUěÄ&lt;°ˇď“ÉäĘ¤_Ę¨ˇŞ–JF6ô�Ü¶3éJ�Â�•ŁÂ�Ô´�¦5)‰Šb5a&#9;€D…1ě´Ţ&#13;’öš”¦ůŚťŞahµ3N·%iŚ±ĆewUí©¨‰dśÄ*LY&quot;#Rcd+ÓÓ&lt;°ŕŤšUyĘĽDQÖ&amp;��îb×Ńx«&#9;˝ÎŔĂ‹ř‹‡đişĄS%Š†Ä´t_‡ľ•¤—V¦…ŻĚ¤ŇŰ‚[ç‹ÁŽĂdé%&lt;´±!É&quot;ä¶KMăś}j�ŞX,›µDňŽ·*6“LmŮ§QĆŞJ”%„ĄšµÜ_nŤn­ú�ÔńYjAćRP&#10;S]™�Ň†]úäíba'‰q©ł©`�„×0¤˝ŇEJ/×°ł@m^ą6ńÔ•„— z|lŕg;°č®3&amp;š©Jó˝$_$Čłbřô4ÇHň'˝*Hc{m×bzÂB8”Ŕ¶É©H,/íoX=ˇžµ‡^{$ź¨/ő0źëeĚĺŽŐ]=ŔMČöůE R Ą(/j�¤•;./îv»YB�/áÎëH&quot;źňRCüţqfBe˛¦.k«!$—;P Í}ŕ×Ł™ýGöÖR§J«‘e�OzBi&#10;rOv‡ţÇ…|ŕ)*&gt;!Ź÷˝@w&#13;nź%m?ć/R´©)–’Ć ]Ň€Ő9ňś�÷kÄRxŇ2\ĄË¤=a€J©`¤…‚Ą&#10;�,Â�Ű@N�Ć¸l­@ŞQç·—&#10;ő3vĚ.h4D,‚.|Ł~Ż]E(ZŤČ¸,ýĎfaÍˇËM§LŰĚ—JŔąI·oź¤g–;éxŮ;A¤M)�5ó�AĎčRÖqúEM_JŇĹd¬!O]ňbçúůîLP¦'|ę3� ¤Ůń�÷�&lt;C€Î–˘&lt;2±ůŇVÄ,ĄFö©¦Ô‚š�««KťZ)€?†¶˙űF“RŕŚµ¬‹\©�”Ĺ„iěńěť9W¤VĎH%K*ýŕ–›‚)i¨ĎĐ&gt;&gt;�řćt|5Ŕń-QKp-»űE„ńĐ™Ę•- ¤(±pÁd%Í€r-˝¦�čţš˛E:“`^6Î&#10;`‚ÝöőÚ&#13;«ŤĚZ&#10;’¤TŰ$¸»ľĚ,ŘFËÖLJTµą…&amp;Ąc&#9;&#9;-ĘAęěńŻńD…j~ÔRÉ¤úŃ˙ośťÂ&amp;‚� M[{“Ó·X`L™č)�T‘ĎJÓ17K±'—¶ĆŮ‰çęgM&#9;P.9•ů+Ś±'=Đť&amp;t•!E*�m¨CÜÎ/S()Dˇt‡Z“@·–Ćä1˙Ű\[‚L�Ut©Ř€‚Íq°Á2%hČťž��ŮŁÁBR/“üXvřS@©l·HěÇn&gt;Ş n '&#9;B*i©GËß»tŰ¦ź-‚\ÝÉ&gt;�ńÜĹ`Ľ�üEĹyYę77.2lľńÎu:ÓÖHu%Ę™)rö:\°Iˇ÷!Ď@ěHômˇ\˛ QdŽ‰3ÜŢ5eIśBW†*&#10;PµW`Oĺö{ž°(i”—PşŹâ;wľOxm^ŽX$± ›c%†xZ×ęŠ”R›żSo` „¤‹*÷ţw0ËÁç©$e őI&gt;ŕ1ůÚËŇ»?ÎđW† 9”;‡on�Ĺ7#‰­„¬&#13;ČJŹpç&gt;„íxĎ•2’€´”Ţc~+€–ęß1w]Ş:ŞJUaJ,ĂÔ†ő&gt;Đ•Ć5�JiJBąÔÔ�¤öMĎ1íb{ETA9úĹË,S&amp;Y5dÖ¶S¤·NPÎ.ç-fN&#10;Y™CL)Ub„;©GjŮL;tŠZÝrH”Ş‰$ó?•“›nJ‰$ţŃw‚˘dÉŽpA&#10;&#10;-ĘĆĎµźĺ†ĎżČń&#13;\µ$¤­Ę€µ¬öűv0ěxš�)%)aK]DŇT—ĺÄ\‹í&#10;&lt;9%K&#9;—(PŠ&#10;ĘR’®f$¶Ű8=`˛8Ź÷&lt;&#9;‰Ë&#10;+ ň„±ň°íÔŠŇt6x©*j…‚Š”�E%Úç»Ärő©,˘Ą,T…9~ĂňŘç÷¸M@I@Ib•%)Qî”€ěAËŕ“5ó&amp;K�ŇĄ‚�Š/p,�É#˘ň;“ŹËâČ–sÎi»�š\3—$&gt;ě&quot;y|JiZ€”„\›‚BťöÉ±Ě=”ůÉ!&lt;ËĂśËHa,(fĄ-ČĄĽ�4Ó™hp©LC©jRžŁI.-KÄ‘‘ÖŹgy:ó‡µŇT&#10;�¶YŔą!›đ�•ĺĚPIHgék÷„ŐkČ¤—S¨TĹ%‡# šąq»‡ÝŻi5îĄÖP`ěĹt(‡P&amp;”¤ ě2[»M�~wÓ+đ•b’EŮđ-�©˙OŇË)ĺ!˙6,&#9;s»YŕIâ†b‚¬9ŠoĘln¶ţ±GW®RÂ‹• T@@CĄ,,Ä‹ő…dý&#13;|C®RÉ['űjb&lt;Éą{IcÂK8�´&quot;SâĘ©iLÂ° ’^Z’ějÔ�Yř›�ĚJ›ű�&#9;AIpµ]��Č’ď‚îáČpéd(KTă.P   )Et&amp;ś%Č˙h¤š5$éĂÍ*›=LBJ’D°&#9;.Îg ł†hŽ_ÄS&#9;Y2čä€˘=FMĎ@noŇ—ţJŞP’jU+wtŽ¶&#10;w˝5;_´E7„�1u]�TŻWI*'] Ťµ?Lši–Kŕ‚É.]Ĺ&amp;íŚ-s8_BŢ¬Ą …*ŠXS(–l„ŮÄsî%(Ë�Şf­�°pXňUżG‚&lt;;VĄË™*hIţŮZT©i$‚Ż÷#»aş“�KBęń*JTJ‚Â*HX łzőbo[)3‚B‹‚A·  5±|]&gt;ŃĘ´:•şTVVj)$ż‡Ëke!Íň7»â3ĄËTąnHQ¦°°B|äMąIgÄ@I§|3((˙˙Iýă ¦źQ5I4µň•$Ř±qIkÇ‘&gt;±[sŃ�‘ĎíÓĂš5 E¬ęvŮŐŘt{G&gt;J]-R™‰ýé·xX‘«(döŔ·©'1fLŔUd¤\¨ä“ŠF}â±i�ź;!'˛CîH°�«)––U%LiXuR‹ž÷oÚ!ťÄJ’É&#10;óúż´ť!J`nJ‰ö÷hÖ2Č+ŤjÔ»$ŠsëÝŽ.&amp;Z\šŹ]Żíř’Ą¤•+¶&gt;[�&quot;ZÔp:ś´8K|6Zť�§ég†M,‰‚ěe§&amp;îOłŔîŞgZ”:[Żx3ŞâNŽPzćiŤjŮT»&#9;sÎAo÷&gt;ÍóÉ…„ń �»Ą*Ę†Â_“ćąë¸Ć�%QS©°Î]ňN¶aF’Ą0É,ßH¨‘NÂÎˇn®TrŐ€úÇGŕÜ*Y–%¦˘jb¤ˇŠEËÔ@»vż¤Vř_€řiZJ…&#9;K­`©v&#9;ć0ŢŕZ452�ŞőŇŕrł0QBYŤ‹;[bq*¬fŐ4&#10;5RĄ)C™T&#10;–P–&#10; X–v/z®&quot;}V�K2ęR–šÝ*W5$śd„‚€qěÓˇRÇ”—°ć*k„ůA˛KÝ°0äÄAÜRÁB˛&#9;IśyIeŇZö1ĄíM:.Ĺˇ*U�!�$„ąQKg˘{�źQĂÂÖ’á�rAUJ)±e69ł›–Ú,éV0ĄJ¬;Ł–Ô¬B‹˛ŠTćˇů‡Xž|·J”ě÷',Ě-`löŞ‹`şÝ(&#9;I4…&#9;�%Ŕ*b&#9;Ę`&#10;złŢ).@–S)DšË)`ĄlÉd˛J@croS»şŞ)ZRüŔ¤P9&amp;ĺ�}ł†§&gt;T©es&#13;Ec—vJjt€áA/H{d]ŚzU0˙M7jy’Oś“QqvA˝ÚjR´¤’µ3Ą*@�ÁK&#10;¤ą¶ĺ©íf.!ˇ*ZBÖn°ÄTĺŠ”oRÉtŚżgŠÚť1L°µ$­‰Č&#9;RRMĐR&#10;Q&#9;Hzp}ŕP¦sşM)&quot;É)W”¨˝ÚĚ4äťÄU—ŞĄ*O*�?.Jln&#10;ĂUaoh5ó�‰jA˙ĚH­JRĘKŘSµ­&#10;S''ÄZ^’IęRyŠž¬Ś©…ň;Á&quot;mWâú§ť1*&#9;&#9;*rŕ–.\$Ť�*oľ!Çáýlµ§ÄJÁT´$Ě­Ă€JP¤{šE�ąĹŢőÚd•`©(˝@—%$˝»FúDˇÎ´Pj!ňś`ŽĄíSłE#n“Ă¸‰)¨ŁšüŚ[e~!Ü&gt;ŃS�q…M˛’RR˙'|ľpW)Bë©KşkEłą’&#9;~›••ńYéZ�Y7{€r_ĐÂ8fâ€”€f-†/ňÚ§Tąs¤€náAĽŞ˝ĂZ(ŻY6`eL-ŃŘ|„b$?üúB\†&gt;„’”*—I2Ę…&gt;pTÎ0PÜ+&amp;Đ{áÂ|J+%”Wř‰&#10;a€ÎÄe¬®ĐŞ5éL´¤‚ÉRŽ2ÂĂrK˙ś6|(¤Ě–M€Ü±Â‹ĺ�9éś&#10;ś�”�ęó~*©pˇe}‹Źhöőżę(®Ję$“M…îŘĆC ĆőµŁo`9IůEr§1ÍZxçuluń&#10;×2bŇ’\Ô ýTc&#13;^@ŞŢ°Çđ˙LłTőí’;ĹHşô%)M$�őQúŰçh¬Ň®a`ŕ_·č;Ăaá˛TĘ–K¸¶ýŕW�´ş*ąV&gt;żĚĆ¬©'])Ý€'©Š:^˝B�$„żC¬1%jRîŔ?¬B˝RĘč–ÉHó)¶č!ÄQ‰z9HK$ĂaúÄK�ÍËźćńwK8Qcôo¤WÔM9żkRTř†S¸s˝±ő�_đs7V€ ŕ:”vČ�ĽGLĚµua&#13;ź&#9;pŹJć%A%TŠ©ŔŕeĘ”@ŃJrlcOŁA˘H§5P€âöIQ.ęJŽ¦” 2@;\ë¶Ţ)pý„‚H5@śžßó±/uóáó…9Ş„–FäŠYĹË—!žîamzZÔkX@»ň¨‘`2\8.„�®ąÎ¤¨%UPĚC¨Óu$“łłgmĆjuCĚ—%!N Rî*Ří¸-‘¤% ¨’I&#9;”�Č!�(ßĚHîćĚ :yCÄQ$T&#13;L,NU‹ŘĹ©ŇęK(˛ś�p§¸!�°±0QŻ&#10;KŇä1»Š]L‚&gt;ólŢ%ŐjU0¤Viĺ4€&#13;*H-Í’—#w€-`ˇ5d±+wTą$›±°qą0&gt;réY SPÝ%”¦d(‡�lo4şŠÖ˘ždˇI¤$Ô�’.Hj]Â­�AD˙Ô0&#10;ćF&#10;�¨˝X5ö0Ĺ[&lt;&#10;@…&#9;…@Ý.ô©$�73rlřrpŃS‹•!*BPy–M€g&#9;…RłŇ:1p`Şć¦”TĘR–K’(S\&amp;’ö;@Mtů„&#10;Ź!&quot;Ąµ€°§-*6$Ř–9Ä&#9;.jÂ–ż&#9;([šJŤ Öju1»łZŞGv\ă&lt;8]%$5EÎ&#9;»bD‘-×-)ĄFęP[‚&#13;Ü9&#10;‰ur\ÚO›.·P¬:’mRM~PyěEÎ[í&#10;&#10;G‚ĚTjIµĹŰ¸Ű&gt;Ć5Ńę•ârŁĚ@g §qa÷�µˇ(�¤)I$ˇĐÜć.čĄTJR ÁĘY.k|p&amp;ŕí�Ń�¶Ś¸)Pň°ł©ĆR@ë·pEŚ\•ÁĄ¨Y‚Ž*˝·†&#9;đmH �† †¦Ćá�pđĂ7�ĄHyE'ä#`ÖěĆ†Üęw\»–#ý»w»Ú6ÓéB¬wű1¸Ž†`Q­ÇŻ(=ťŘ‘ĐőłŔ˙&#9;Bęů�ó—*ĂÔJ€/—#čţ˘´T¤'’Ôďaę/f(Ăő~%’AUČŤMÓążMź¬0p©Ňç&amp;” …î’Avénîh46=ĄśT„’�K1.«µ¶¶Ń�7úu~ÉŘd-Žuˇi(TméĄ łŔ&#13;&quot;µxŻ�a[Pă1†]şgJç‰¦Rë-Jwďđţ=7TUá�—ý„,üJ&#13;(IÁP«Ň8gŇH–„Ë&#9;&#10;k‘‘hÓ5¶Yďz_DÉ˛?»1é&lt; dĄ ˛?ż.ĽÚŢýˇzOĹ2ćL¤ó$ŕá‰‡Ţ¦BŻ,rň1H#q9fŇĄäže~¦+J¤Lˇzźą?´t~€K�RE‹´U•Á€uÝ=:ÂŮÜA4ňČHßíkłëöÂ˝(MÚÂ!”%“Í~Đ\´&amp;(˙Ó×1a7$�tť(&quot;ZjŻSPHS€âŐxŻ˘á�Â“HĂ=ľ±¦ľiBW8.’‘ĘöćQ‚nĺłňčJ~ş^ă&lt;Fd˛žU�‘± 6^Ę9Üű=ŕzuľ8RCŇ&#10;‘I&quot;Ç•Č.ě‡ŇčřěŇąrőS´LU$«‘rÉvf [ j»Á9 ‡ĺaYÉ&amp;ţ˙3ĐE“pý3ÔiÉa|$.˛Ä?-ŽŃíët‹T°X:YČŤ‰&#13;pi9Ůđ-id¤Hkł–!Ţď‡»�®ř«I§ZeĚśëSPŕÜ8ô˙·H&#9;îE@�¸ ôMĹ�-ę^*ČLĹ¨„ş©!L¦`KŇ~Ö;ŚXĹť6¶LđDą…jÎ˘@ ÖÉ,nCąéÎCJéĄÝüÔµW$saŞE˝�¨×4&#10;l9”’ˇbŕHHl&#13;Ř&#13;ăÝ2ÖiP˘–¨&amp;śď`YÓŠ‰8hŽt˛«¦�ÂĘ[†&quot;÷IŔ&amp;¦ô€şůĂČC�uT&lt;Ď—dÜżżG€¶g’°T¤ĚjĹŠŔ*swkż{az”‘L™s]6ć4¸&#10;&gt;aRZć¦!ŻqdqäUJŇJ@čŔłn^ýÚ*q2ŇĄřťK% ’:ŘŘ~� y¨ rĚzJ€rGáU™™ŮËŚt,qí–Ţ«@�tÚĹL‡.űćµš†Ó)$şEEî�5!d1Ć¶€|nL˛§R‚�•%e�–RJC»jm˙7x!W?âz—&#13;Q$84‹\ăŇ%áÚeˇÓ�ŞOF&quot;ă�a�?X=¨�*t¬”‹±{�Eö»{‰řn�9$’K–ą$¶Í�-¤€�AîŔ(cç1šO)É¸Î}`B5đŮwć&#9;=¬\łtĽ_™ˇ™15K �jĂžU1'%Áď�z&amp;üvj‚•¤)®ćîoŘýˇ=rre©Đ÷ę’/JÓ†ÝűěĐsâĚ\˝Ň´íe%]Â˛›íkÂ÷×�˛ŕ¤�BĐ é6±Č!�I¸|¶X7Ň%B´„(- Ňö ©.ŕě~Í(Ń6[ĄhQR�łÓćI8ÜObďsJnś*ž[2lNŢ 5''çcüLe©Čq‹łťíěůęzÄŐAY2ä�5E+üA�ż[&#13;óď?ŁJ®•[kŚnGó®c _Â´Ĺ&#9;fkAUČ%ş'­Ň‰a€°ŠfhOkG»ĺß–:˛ľ3ÔŇ¤ˇ97=ˇ^LÖ.ć&#9;üHjšýšëÂ~.O/ůQî·P)#ůż¬uď‚¸Âĺ„ËČ9Ž¤›JÁď‚q`†~Đł‰Ć»„é(ž†=,FA…-t…Č[(ť•�DŕfYČÄ´¦bX€AŘÄëÚÓßŻôç:ţ WaaŇ#ĐI©Bqź†&#9;\›ŹË¸ôŠú&#13;-áŚcśł·GŹYt/&amp;C˘‘gw-€Î;ă¨·ńě˘­ĄĘËIî¦ą'9$ŕťˇ’nĄ2Ą•Z˘BíQÎ}`żT‚‡R’÷&#9;ĄűŠYěâÎoc8Ó,˛ć×0ř+�N™©B¦%I—.˘j°|~äwůG^Ô)bÎ&#10;žŢT›ýĐÂĽľ „,&quot;ZEEŻw™ľť˝a�‹,‰KM_ý9c¨aĚCŁçh¤îx×›¨Q•§4ˇ�RÚ÷8mÔŰwľb¦Źá‰&#9;0«©*˝ß_¬XV±2Ŕ@ußxŃ\VŮo¤9hĐL±6S¤9q—ćŮÂa—‡ń„j$±$3‚&#9;*!E.9ľbý TýO�é$}»`@®…é¦('Č¦¤&quot;ů~îŮ0XRšuÚ«2sf»›;µ‰Űa} ůéR‚/Ěn’s€?ţmbŰDH%D»&#13;ö|‚O·F!»E¤ée‰–+=G\{B9Í{/úye’T»Đ€ĺ»µ’ „ž%!I&gt;Vjĺ¨č~˙8EťÇćHYÂj)˛¨�ç;;�ŘAĎ†'&#13;QžV€•)&#9;ň=ÔR�˙qg˙�cF4Ëń%¨\!KźÄ/Hz®p@&#10;W!Q.J‚7�ů‰ŰŚ�×‡ęą�ÄAJ�,@VÖŔć=Ž/‘%4)ĆÁ,I˛ŤËŚ{w€¶?MJŐŐ©›'™ń‘Ľ&#9;›¨�’»8nľ·ůĂO–Ş”@ďanžŻ�­;€NFGok`Ź¬ —&#13;�T…ĄA\ěFä¤Ňř!Ău�%E\äîIŰ�ŕç™7ôŃ&#13;Ň&lt;´–¸ożüE®µ¨9&#9;rCZĎo•ÓčD9–…�ë”‚b •ď”¨ô®ů`6€3t�`L@&#13;Ëf’FäôÄ2|IĄJÖă»«ĄŔ66ąë|á&lt;7Â4~ĘířK1nĆíł2ĽŚgš&#13;5hJ�ůf_§0-ôţăTBĽ0skz&#13;ű›ö=m®�(A˙+î@�“5ĘĂ)Ŕý?ôĆyćÓS«�\˙pĄÉ,ľĂĽd&#9;ši$tŚŚ˝«OQ~5¨HL(kőV7�|sP&#10;}/&#9;zíCśÄřńá·’ţ@ĽUUDÔ©ÍâĎ&#9;ŕŞÔ�Zśw1ŐŤ�Î\ąĎkŔ00k‡kŠ�OH¨�¤(ĄA�‹ĽI*xwV3śWHŕ\HËŻÚôßŘďÓJ˘ô‹Č™0—1ť‹™;F�‹%InŃbt„LĎQĂ‡ńK‡8&#13;�fá|TŞérŇż*¤ű8IĆAˇhP,�o›»Ľ%*|Ů•†H-Z‚U‹°&amp;ŕňaăŠĎ­+=@čS˙?HD×Žd#(g Ä�Q$]TŽűĹD×şnĄĚ—UČ`UţC#&gt;fË/ń˙K”\.ŠÖůć°z#0ĹđŹO„&amp;LDŕ¶ŢĎK6#–ţ�ÇÄÍRŐ,ňŽTµąS`_x˘mŻâ)ü×ś@5ÁM{˙1&#9;§\M÷‰äkŽIÇÖ)ť*ÁI&amp;&lt;®bP, ĆćÖ/vů�V•Ĺ�Áđń©ć(3†{u‚†hőÄ*.BBËő»łîEäq ¦AĺVĎf;?Ęń=Éj] snŘíž�;IĄI˛–Bîöp;·¬N•.—őĽL&quot;Ö;˝Îě;´2p.$ĘdňÔ¬—ß&gt;Űí¸yR`±r¦ç&quot;éőĘR‚pIfłćßĘ×&#13;±hlC‰Í)J&amp;8SSpZŔH$1~ör,ŃšuT”=ŞIr@Iră«íĐŠj3YYMörĚn?ď­aÍ‹$‡Pá&amp;ß¤Q+ę+ąař¬nžŻ�ěIíQĄBÜ˝Ëîo‚ăÝ �ŕŚô¤~lź‘Š©ĺ&#10;Y2}^‘Ö¸V¨&#9;ľSr‹3»‹´Ö‹,SźCţ_§TĄ)E R=&gt;ĐřuÉ]oď)Â°­–”©�C�É?ˇţtŹ'MĄiň&amp;ç˝Ů&gt;ÝbĽµ)rČł*ÝăíőŠÓ)&#9;çµßŢ&quot;çÂć+FpIŘ(‘ÚĘok3w�ĘSÇĄf5ŚíÚäyĆ@4&#13;ĆµNHµ*ĽÖ:‹�&#13;¨–ńxđĽ¨~ ąx}řSIáČĺW„Ť4�2b7&quot;:tątĄ)&lt;—Ť3Ç˝–~#ŕÉZ«oX­˘ŇĄ)Ą&quot;Jqu:/&#13;Nź)�¸ŇsĂę´˝,^.É•iŇ—&quot;ö{gĄyzV „Ţ&#13;pŠÁ-ËŘďřl”¨Üb,k¸ss¦ŃV�Äi�J&#13;Yv-Đô…ůş@f%ED$¶îĂŽ¶ÇX7Ă´Ę%J&amp;ĆÍő¨¦b‚Ż’-Ţ/&#10;ź$úłÄ&gt;$Tť˘‹­(d!�źiCő°[ÇâJ�Tëc­ńť`ĹC•I(YIłú‚ĆÍ�ŞÓř‹Tµ %@�nîß�v&quot;â.Tëp ńč1c�iÄµ”‚ă¬h%Ődß»E§LÓa/áť)PM$‹cô&gt;űÇ?•ˇ`I,FËíkáÄ&quot;\”›„€M®Zů¸7‰ŘĐ€Đ‚wQ6Čn–ąţ4#qí!’Ąy]�$‚Fę»=á—_ĹEÂJ•—#¸˝óßÚkuKZZ1`ăÍb-k�ňÄ iHYA(Y`H‹(±Üíą�šys&lt;÷&lt;©H6Ŕ?bűgŇI—á•`‹‹;‚&#9;˝ň.=ľ�}��ů‚,qÔ“łŕ=áúôĺ!&#10;&#10;»)dŰfaďx×L®c°$µýźźÖ!ZË¸.Ôyz‘Ú7Ó=“°ÎÚĐ„€?Ç–ÖŢĆŢŹľ � ˇĚiÎ_ůŢ,­aNAďôŢ8Ö»ĹXćDµ7G&gt;˝í4™§ZŔ&#10;b˘’E ^Ä3fđÓÂ¸Śł.Tµ0ăgäA…‰–K„*ĘË]Â_$FčžÄ*Ŕ�nnýśĂ§.ŹóWZDŔ\;?^đ&gt;#ŕzçI”˛ŽPL÷$E­DšŮcć›av®D{´xŃ+k4d¨ĄYŕDě�żQ &#13;Ěá_&#9;MÔ&#10;ě”ľLTíVđđžš˝A'&#9;öˇľŕëÓLš™‚ŕ°=F×�P˛ć¦5¦0Ë¨cp&quot;-~ K–UURiQ‚:e�ac‡ńC1DíZ%“1ú?ˇŐmÎđĂ¦!a‰q&#10;H] ˙Ô€Fu¬™˘ü¸'Ťh*–&amp;~$ćĎhb3E!·ŹdiÁ¨(X†h1ĽŚ§ăËšj´ţ&quot;&#10;K;˙b&quot;N#ÁĄjtČ›K-)`ˇbÂÍk7f‹ĽoFdLPnSpv=+pÎ ”“)G•f©}0ä´o.Řôć&lt;G�¨(ćÝâĽť&#10;Đôµú�ŠéÁQ'xtŔCÝ&gt;ř?ć�j ¸MÇĚď|W¬�&#9;Y&#9;6 m92ŇT˘đýˇ[U0Î[ě=pŢżĽ•řc_R)[ŘX†ŰcŰ÷‹Ú™ÉĘ­ugrK‚zh˘—BYŮ°{śDzíCÚÖĎŻvţZÓĄ’˛T&#9;$»|żÍĚM+Z&#13;Őć)?0~Ů�ÉťJQĹÚÎŕ’&quot;ö›N(�Aę˙`ON°C’á ›oŹűF.{—?N�ŘüÄVńŔ&gt;žŻ}śź”V™®D´©K˝©J1žý \K_áÉ7J`�w¶}žôÓ)JĆTßM­Ůâ&gt;!Şń×ZŐKafÇéh�QQ*rC€:żŁĂ�–“Ş]ś�MÓ…fvÍ‡Î&lt;b˛�ĆC·Ďů´d´»rą'Ň“Ő„L©jQIśRSgbCž›|˘€¦›PkI•¤�µĎâćôúż&#10;&#10;M*C[v0†ą‰t8$˝Čp-ëď|XÓ(&amp;ĆÂďfŢ3Ęm¦]ŁŹHąŹ@Ś1Ł&quot;FŚ€¶JáČţâ‹ůC™â&quot;PQvJ†ß‡ŁzÂĎÓ&amp;JU¨™ć˙ËOSůš(j¸×�˛vtž Ú6‘duGl*Ţ›Š¨Â·Ü� €TXc;ÚçKH\+üO®+W†ś3Żže ’8hVJŤÔˇsý—|Ę– ®�ÝÁřŞf$ľđ­ŻC�©Âő†TĆ{É¸Ś¦ť[N°w‚:&#9;Ě±ŇôšËÁm«xĘÁ)ç†Ď­nöL‘8ýa/…jůNĎ:9Ü¦&amp;NZ^cŢ,„L¨8űG?ă|Ëň’RîăŁč-Q€üYH&gt;ŮŤ0–łÎČBţĄa’«¶ć(ë5JMŔ �śP ›_ŕ…^+Ş–›�ďŞĎaZĄĚš§Y&gt;›ĹÍ(ÚĹý·ý&gt;°=zđpŻç¬E7\7?(5Op}Z‡HcŰ´@gď×h/�#ńkÇ‡Š$T’~PjŤŽ‰”á�žľ‘&amp;‰w¶ß-ě!wţ¦µ(ô6ýăEq&#9;„0QĄˇúŇŘ÷ââX˘[U‚áŮÇ×sďő:Ł1_™Ťż�ďďřCŮÉ8ôW‹`%¬â‘›ăÓ÷‡! Hě26v&gt;ŻëĺYĘyA]6ćĆlďĽGU%ÄłĐŢť®ŢŽŢŃ8BÔ+1p“{1í�˘O¤]Eď|€ˇ‘ëűĹ¤L:¸6Qú“í'�PĄÔ6°ĹÜîoŇ2LĹÜŘ.ś7\}`5™s)‡,Š\�ßk±Ăj3š€njš�ý;Ĺ9Š%€&#13;�IţoéęAR@~ˇđ[çN:Ë±Ă� E-Ç–‹“mâŘ1Í”ĺ´»á#ĆFFCQwă&#13;&lt;Ę« Ęś5±&#9;š&#10;RŔ.&quot;­Łč^%Â|RË[3x˙€”K€”Ž˙¬m+,±úŔ&gt;X–JĎ+’)ÜEůŞ�$Ü�láśrE$¸í&#10;M™(á››0/ë–žÜę¸�šşfu·cËŇ;í´sŠćyYŽ÷&amp;gjŔKţńńÓO&lt;ĐN7§E&lt;°żĂttä aďřśâäďÚü˘¤ŠÉÄ^6ăäŐĽ&quot;ÔĘ2UNŃMŞ6kA)¤íqC¤±Ú&#9;vĘÍS‡š&#13;ó&lt;7RMŤ„$péÄ†&#13;6¤ˇCoh,9V~'ăFZąNç*Z9§™1\Ë�˘NŐm÷Ňń^ •–šî9V…N)/Ä¤Hą{¸ľ?›Ea?iÎţ�Ô\Ţ»X±·©.&#9;ŠÚ„9ůŢÎ&quot;EŻĂ4(•$ą*NKŔł‘óŤdj’)M ÷ 8·S‹ĆşeµEJ{¸;�&#9;9|Ý`ÜÉ ěRä€ŕcíô�Î�L�’Î›µ‹©Ú&#9;Fśť‹cř3®Xu&gt;ÄwëQ¤N+ZYÚřnĆŮĂ&lt;xą%lôäP“ŃD\;4F\‡PĚÖ&#10;¸÷÷‰eéT·)c{‹¸ő‰ËIB�Ě›üĹív,#T­ą‹v&#10; ˝Č~mÜ~��,»ŇHHó7(ěEî^2bCX°Ř[o“Ť(B”&#9;j’á‹=*&quot;ŕlý˘4­2Í)w °-pp&#13;®öĽŞj©Í!Çpăl©öÚ%—5(©Ô¶p](O)ěćĂâş–&#13;Ô—Qb]ĂlÝíÓéĘ&lt;ÄC�RŔ”ž›ßxŇX2‰˛‹;‚űX�Đ¨3Úů–ëS1JX.KC‚,qę‚7[ů3^äąrçÖN$ěŰ×ůĽN…&#10;Č�žm‹Řžýâ”ÄR@;¤„�ĺŹŢń.Ťd¤TŔ““ąý˘LÝˇ¬KHVÇém¸cřb¬�BŁ›)ůV¸,UW&#13;nŹ§Éôýbö¤ăŰí#ęÎź®®RJK¤Pdd\éźűu\&gt;MgűRüß‘?´Ői%ż‘9„G±‘ź×GÂô­$ł¨[ˇ&amp;ß”u�h’‘*[$ś## ˝#ęşŕG@¨XG±‘8Ś‘č±ĄMUc�ąé’·Ĺ#‘Gzsľń†RhG(ŔŘvŚŚŤ1E.ńŻ&quot;=UňŞ˙?Ň224BÂżř)}Ôż9ĚX xJ°ĎţäĆFBĐyë˙´Ć�˙UĘźż(ŚŚ€!Oúi˙}ŐőÉl?ý„ddY&gt;U7Jv˙â~â&lt;Ś€%ŃŕűDzőďöŹ# &#13;¦¬řiąňŻîcuţhČČ&#13;´ď(ěRÝ­*}Xö2$áŻ…y&gt;_h&quot;###űm‡MŁ##&quot;V˙Ů&#13;&#10;--boundary--" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/users/luke" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="multipart/form-data; boundary=boundary" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="multipart/form-data; boundary=boundary" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/apiavatars/luke" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/users/luke" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/users/pablo" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/users/lauren" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/users" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/users/admin" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/user/admin" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/user" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="00002SSvVlgzEEJJEQY_NBH7-7A:a564082a-c000-441d-ac37-23b389ffb10c" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/user/admin/" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/user" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/user/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet-1.0-SNAPSHOT/api/users" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/simple-rpg/api/users/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/best-bet/api/users" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9080/simple-rpg/api/users" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic a2V2aW46dXNlcnVzZXI=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.requests#5">
+    <configuration name="requests#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/requests.http" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/requests.http" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests#6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/requests.http" index="6" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests#7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/requests.http" index="7" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests#9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/requests.http" index="9" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.requests#5" />
+        <item itemvalue="HTTP Request.requests#6" />
+        <item itemvalue="HTTP Request.requests#9" />
+        <item itemvalue="HTTP Request.requests#4" />
+        <item itemvalue="HTTP Request.requests#7" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dcfc8ab-cd38-4e4f-ac29-1ad2ad0070ae" name="Default Changelist" comment="" />
+      <created>1633975613322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633975613322</updated>
+      <workItem from="1633975616739" duration="1074000" />
+      <workItem from="1633977093570" duration="14058000" />
+      <workItem from="1633991208054" duration="1176000" />
+      <workItem from="1634017254069" duration="2237000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="243" key="#Project_Structure" timestamp="1633976086520">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="552" y="243" key="#Project_Structure/-1920.436.1536.840/0.0.1920.1170@0.0.1920.1170" timestamp="1633976086520" />
+    <state x="-1697" y="508" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633989342680">
+      <screen x="-1920" y="436" width="1536" height="840" />
+    </state>
+    <state x="-1697" y="508" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.436.1536.840/0.0.1920.1170@-1920.436.1536.840" timestamp="1633989342680" />
+    <state x="765" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1633980075861">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="765" y="294" key="#com.intellij.ide.util.MemberChooser/-1920.436.1536.840/0.0.1920.1170@0.0.1920.1170" timestamp="1633980075861" />
+    <state x="577" y="510" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1633977378088">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="577" y="510" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1920.436.1536.840/0.0.1920.1170@0.0.1920.1170" timestamp="1633977378088" />
+    <state x="-1421" y="600" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1633985141075">
+      <screen x="-1920" y="436" width="1536" height="840" />
+    </state>
+    <state x="-1421" y="600" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.436.1536.840/0.0.1920.1170@-1920.436.1536.840" timestamp="1633985141075" />
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1634019419209">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/-1920.436.1536.840/0.0.1920.1170@-1920.436.1536.840" timestamp="1633990617637" />
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom/-1920.436.1536.840/0.0.1920.1170@0.0.1920.1170" timestamp="1634019419209" />
+    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1634019419209">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/-1920.436.1536.840/0.0.1920.1170@-1920.436.1536.840" timestamp="1633990617637" />
+    <state width="1877" height="305" key="GridCell.Tab.0.center/-1920.436.1536.840/0.0.1920.1170@0.0.1920.1170" timestamp="1634019419209" />
+    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1634019419209">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/-1920.436.1536.840/0.0.1920.1170@-1920.436.1536.840" timestamp="1633990617637" />
+    <state width="1877" height="305" key="GridCell.Tab.0.left/-1920.436.1536.840/0.0.1920.1170@0.0.1920.1170" timestamp="1634019419209" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1634019419209">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/-1920.436.1536.840/0.0.1920.1170@-1920.436.1536.840" timestamp="1633990617637" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right/-1920.436.1536.840/0.0.1920.1170@0.0.1920.1170" timestamp="1634019419209" />
+    <state x="-1568" y="436" key="SettingsEditor" timestamp="1633985539460">
+      <screen x="-1920" y="436" width="1536" height="840" />
+    </state>
+    <state x="-1568" y="436" key="SettingsEditor/-1920.436.1536.840/0.0.1920.1170@-1920.436.1536.840" timestamp="1633985539459" />
+    <state x="440" y="159" key="SettingsEditor/-1920.436.1536.840/0.0.1920.1170@0.0.1920.1170" timestamp="1633977133312" />
+    <state x="731" y="288" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1633982090678">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="731" y="288" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.436.1536.840/0.0.1920.1170@0.0.1920.1170" timestamp="1633982090678" />
+    <state x="656" y="183" width="607" height="804" key="find.popup" timestamp="1633979960040">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="656" y="183" width="607" height="804" key="find.popup/-1920.436.1536.840/0.0.1920.1170@0.0.1920.1170" timestamp="1633979960040" />
+    <state x="-1711" y="555" key="new project wizard" timestamp="1633985575856">
+      <screen x="-1920" y="436" width="1536" height="840" />
+    </state>
+    <state x="-1711" y="555" key="new project wizard/-1920.436.1536.840/0.0.1920.1170@-1920.436.1536.840" timestamp="1633985575856" />
+    <state x="616" y="273" width="672" height="677" key="run.anything.popup" timestamp="1633980491209">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="616" y="273" width="672" height="677" key="run.anything.popup/-1920.436.1536.840/0.0.1920.1170@0.0.1920.1170" timestamp="1633980491209" />
+  </component>
+</project>

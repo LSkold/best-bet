@@ -1,0 +1,57 @@
+
+GET http://localhost:9080/best-bet-1.0-SNAPSHOT/api/users
+
+###
+
+GET http://localhost:9080/best-bet-1.0-SNAPSHOT/api/users/lauren
+
+###
+
+GET http://localhost:9080/best-bet-1.0-SNAPSHOT/api/users/pablo
+
+###
+
+GET http://localhost:9080/best-bet-1.0-SNAPSHOT/api/users/luke
+
+###
+
+POST http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="avatar"; filename="koala.jpg'
+
+< ../../src/main/resources/avatars/koala.jpg
+--boundary--
+
+###
+
+GET http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke
+
+###
+
+PUT http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="avatar"; filename="Kangaroo.jpg'
+
+< ../../src/main/resources/avatars/Kangaroo.jpg
+--boundary--
+
+###
+
+PUT http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="avatar"; filename="kangur.jpg'
+
+< ../../src/main/resources/avatars/kangur.jpg
+--boundary--
+
+###
+
+DELETE http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke
+
+###

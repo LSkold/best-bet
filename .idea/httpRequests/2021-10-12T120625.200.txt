@@ -1,0 +1,1 @@
+{"login":"luke","role":"USER"}{"login":"admin","role":"ADMIN"}{"login":"pablo","role":"USER"}
