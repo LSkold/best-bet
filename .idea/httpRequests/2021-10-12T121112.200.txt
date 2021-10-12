@@ -1,1 +1,0 @@
-{"age":24,"login":"lauren","role":"USER"}

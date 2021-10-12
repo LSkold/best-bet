@@ -1,1 +1,0 @@
-{"age":23,"login":"luke","role":"USER"}{"age":18,"login":"pablo","role":"USER"}{"age":24,"login":"lauren","role":"USER"}{"age":22,"login":"admin","role":"ADMIN"}
