@@ -1,21 +1,21 @@
 
-GET http://localhost:9080/best-bet-1.0-SNAPSHOT/api/users
+GET http://localhost:9080/best-bet/api/users
 
 ###
 
-GET http://localhost:9080/best-bet-1.0-SNAPSHOT/api/users/lauren
+GET http://localhost:9080/best-bet/api/users/lauren
 
 ###
 
-GET http://localhost:9080/best-bet-1.0-SNAPSHOT/api/users/pablo
+GET http://localhost:9080/best-bet/api/users/pablo
 
 ###
 
-GET http://localhost:9080/best-bet-1.0-SNAPSHOT/api/users/luke
+GET http://localhost:9080/best-bet/api/users/luke
 
 ###
 
-POST http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke
+POST http://localhost:9080/best-betT/api/avatars/luke
 Content-Type: multipart/form-data; boundary=boundary
 
 --boundary
@@ -26,11 +26,11 @@ Content-Disposition: form-data; name="avatar"; filename="koala.jpg'
 
 ###
 
-GET http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke
+GET http://localhost:9080/best-bet/api/avatars/luke
 
 ###
 
-PUT http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke
+PUT http://localhost:9080/best-bet/api/avatars/luke
 Content-Type: multipart/form-data; boundary=boundary
 
 --boundary
@@ -41,7 +41,7 @@ Content-Disposition: form-data; name="avatar"; filename="Kangaroo.jpg'
 
 ###
 
-PUT http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke
+PUT http://localhost:9080/best-bet/api/avatars/luke
 Content-Type: multipart/form-data; boundary=boundary
 
 --boundary
@@ -52,6 +52,6 @@ Content-Disposition: form-data; name="avatar"; filename="kangur.jpg'
 
 ###
 
-DELETE http://localhost:9080/best-bet-1.0-SNAPSHOT/api/avatars/luke
+DELETE http://localhost:9080/best-bet/api/avatars/luke
 
 ###

@@ -1,28 +1,21 @@
-package pl.pg.eti.jee.bestbet.coupon.entity;
-
+package pl.pg.eti.jee.bestbet.coupon.model;
 
 import lombok.*;
-import lombok.experimental.SuperBuilder;
-import pl.pg.eti.jee.bestbet.coupon.entity.bet.entity.Bet;
+import pl.pg.eti.jee.bestbet.coupon.entity.Coupon;
+import pl.pg.eti.jee.bestbet.coupon.entity.CouponState;
 import pl.pg.eti.jee.bestbet.coupontype.entity.CouponType;
 import pl.pg.eti.jee.bestbet.user.entity.User;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import java.io.Serializable;
-import java.util.List;
+import java.util.function.Function;
 
 @Getter
 @Setter
-@SuperBuilder
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @ToString
 @EqualsAndHashCode
-public class Coupon implements Serializable {
-
-    @GeneratedValue(strategy= GenerationType.AUTO) Long id;
-
+public class CouponModel {
     /**
      * Coupon multiplier in case of a win
      */
@@ -53,4 +46,13 @@ public class Coupon implements Serializable {
      */
     private CouponType couponType;
 
+    public static Function<Coupon, CouponModel> entityToModelMapper() {
+        return coupon -> CouponModel.builder()
+                .rate(coupon.getRate())
+                .price(coupon.getPrice())
+                .value(coupon.getValue())
+                .state(coupon.getState())
+                .couponType(coupon.getCouponType())
+                .build();
+    }
 }

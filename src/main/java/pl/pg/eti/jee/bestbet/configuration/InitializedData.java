@@ -1,6 +1,11 @@
 package pl.pg.eti.jee.bestbet.configuration;
 
 import lombok.SneakyThrows;
+import pl.pg.eti.jee.bestbet.coupon.entity.Coupon;
+import pl.pg.eti.jee.bestbet.coupon.entity.CouponState;
+import pl.pg.eti.jee.bestbet.coupon.service.CouponService;
+import pl.pg.eti.jee.bestbet.coupontype.entity.CouponType;
+import pl.pg.eti.jee.bestbet.coupontype.service.CouponTypeService;
 import pl.pg.eti.jee.bestbet.cryption.Sha256Utility;
 import pl.pg.eti.jee.bestbet.user.entity.User;
 import pl.pg.eti.jee.bestbet.user.entity.UserRole;
@@ -19,9 +24,15 @@ public class InitializedData {
      */
     private final UserService userService;
 
+    private final CouponTypeService couponTypeService;
+
+    private final CouponService couponService;
+
     @Inject
-    public InitializedData(UserService userService) {
+    public InitializedData(UserService userService, CouponTypeService couponTypeService, CouponService couponService) {
         this.userService = userService;
+        this.couponTypeService = couponTypeService;
+        this.couponService = couponService;
     }
 
     public void contextInitialized(@Observes @Initialized(ApplicationScoped.class) Object init) {
@@ -60,6 +71,32 @@ public class InitializedData {
         userService.create(luke);
         userService.create(pablo);
         userService.create(lauren);
+
+        CouponType ako = CouponType.builder()
+                .name("AKO")
+                .description("The bet on the outcome of two or more sport events")
+                .isLive(false)
+                .build();
+
+        CouponType akoLive = CouponType.builder()
+                .name("AKO-LIVE")
+                .description("The bet on the outcome of two or more sport events")
+                .isLive(true)
+                .build();
+
+        couponTypeService.create(ako);
+        couponTypeService.create(akoLive);
+
+        Coupon coupon1 = Coupon.builder()
+                .price(5.00f)
+                .rate(1.44444)
+                .state(CouponState.WON)
+                .value(5.00f)
+                .couponType(ako)
+                .build();
+
+        couponService.create(coupon1);
+
     }
 
     /**

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                template="/WEB-INF/template/main.xhtml">
+
+  <f:metadata>
+    <f:viewParam name="id" value="#{couponView.id}" required="true"/>
+    <f:viewAction action="#{couponView.init()}"/>
+  </f:metadata>
+
+  <ui:define name="content">
+    <article class="text--justified">
+      <header><h2>Coupon ID: <h:outputText value="#{couponView.id}"/></h2></header>
+      <div class="character__grid">
+        <div>
+          Rate: <h:outputText value="#{couponView.coupon.rate}"/>
+        </div>
+        <div>
+          Price: <h:outputText value="#{couponView.coupon.price}"/>
+        </div>
+        <div>
+          Value: <h:outputText value="#{couponView.coupon.value}"/>
+        </div>
+        <div>
+          State: <h:outputText value="#{couponView.coupon.state}"/>
+        </div>
+      </div>
+    </article>
+  </ui:define>
+
+</ui:composition>

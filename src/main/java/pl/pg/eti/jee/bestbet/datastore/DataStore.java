@@ -2,15 +2,15 @@ package pl.pg.eti.jee.bestbet.datastore;
 
 
 import lombok.extern.java.Log;
-import pl.pg.eti.jee.bestbet.bet.entity.Bet;
+import pl.pg.eti.jee.bestbet.coupon.entity.bet.entity.Bet;
 import pl.pg.eti.jee.bestbet.coupon.entity.Coupon;
+import pl.pg.eti.jee.bestbet.coupontype.entity.CouponType;
 import pl.pg.eti.jee.bestbet.serialization.CloningUtility;
 import pl.pg.eti.jee.bestbet.user.entity.User;
 
 import javax.enterprise.context.ApplicationScoped;
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * For the sake of simplification instead of using real database this example is using an data source object which
@@ -25,7 +25,7 @@ public class DataStore {
     /**
      * Set of all available bets.
      */
-    private Set<Bet> bets = new HashSet<>();
+    private Set<CouponType> couponTypes = new HashSet<>();
 
     /**
      * Set of all coupons.
@@ -110,4 +110,72 @@ public class DataStore {
                             "The user with login " + user.getLogin() + " does not exist");
                 });
     }
+
+    // coupon
+
+    public synchronized List<Coupon> findAllCouponsByCouponType(CouponType couponType) {
+        return coupons.stream()
+                .filter(coupon -> coupon.getCouponType().equals(couponType))
+                .map(CloningUtility::clone).collect(Collectors.toList());
+    }
+
+    public synchronized List<Coupon> findAllCoupons() {
+        return coupons.stream().map(CloningUtility::clone).collect(Collectors.toList());
+    }
+
+    public synchronized Optional<Coupon> findCoupon(Long id) {
+     return coupons.stream()
+             .filter(coupon -> coupon.getId().equals(id))
+             .findFirst()
+             .map(CloningUtility::clone);
+    }
+
+    public synchronized void createCoupon(Coupon coupon) throws IllegalArgumentException {
+        coupon.setId(findAllCoupons().stream().mapToLong(Coupon::getId).max().orElse(0) + 1);
+        coupons.add(coupon);
+    }
+
+    public synchronized void updateCoupon(Coupon coupon) throws IllegalArgumentException {
+        findCoupon(coupon.getId()).ifPresentOrElse(
+                original -> {
+                    coupons.remove(original);
+                    coupons.add(coupon);
+                },
+                () -> {
+                    throw new IllegalArgumentException(
+                            String.format("The coupon with id \"%d\" does not exist", coupon.getId()));
+                });
+    }
+
+    public synchronized void deleteCoupon(Long id) throws IllegalArgumentException {
+        findCoupon(id).ifPresentOrElse(
+                original -> coupons.remove(original),
+                () -> {
+                    throw new IllegalArgumentException(
+                            String.format("The coupon with id \"%d\" does not exist", id));
+                });
+    }
+
+    // couponTypes
+
+    public synchronized List<CouponType> findAllCouponTypes() {
+        return new ArrayList<>(couponTypes);
+    }
+
+    public Optional<CouponType> findCouponType(String name){
+        return  couponTypes.stream()
+                .filter(couponType -> couponType.getName().equals(name))
+                .findFirst()
+                .map(CloningUtility::clone);
+    }
+
+    public synchronized void createCouponType(CouponType couponType) throws IllegalArgumentException {
+        findCouponType(couponType.getName()).ifPresentOrElse(
+                original -> {
+                    throw new IllegalArgumentException(
+                            String.format("The CouponType name \"%s\" is not unique", couponType.getName()));
+                },
+                () -> couponTypes.add(couponType));
+    }
+
 }

@@ -1,12 +1,13 @@
-package pl.pg.eti.jee.bestbet.bet.entity;
+package pl.pg.eti.jee.bestbet.coupontype.entity;
+
 
 import lombok.*;
+import pl.pg.eti.jee.bestbet.coupontype.coupontypename.CouponTypeName;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import java.io.Serializable;
 import java.util.Date;
-
 
 @Getter
 @Setter
@@ -15,14 +16,11 @@ import java.util.Date;
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @ToString
 @EqualsAndHashCode
-public class Bet implements Serializable {
+public class CouponType implements Serializable {
 
-    @GeneratedValue(strategy= GenerationType.AUTO) Long id;
-
-    private double price;
+    private String name;
 
     private String description;
 
-    private Date date;
-
+    private boolean isLive;
 }

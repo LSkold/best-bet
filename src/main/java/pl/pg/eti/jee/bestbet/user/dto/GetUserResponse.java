@@ -39,7 +39,6 @@ public class GetUserResponse {
 
     public static Function<User, GetUserResponse> entityToDtoMapper() {
         return user -> GetUserResponse.builder()
-                .id(user.getId())
                 .login(user.getLogin())
                 .age(user.getAge())
                 .role(user.getRole())
