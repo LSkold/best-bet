@@ -14,6 +14,7 @@ import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 import javax.servlet.http.HttpServletResponse;
+import javax.swing.text.html.Option;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.List;
@@ -43,7 +44,7 @@ public class CouponCreate implements Serializable {
 
     @Setter
     @Getter
-    private CouponType couponType;
+    private String couponType;
 
     public List<CouponType> couponTypes() {
         return couponTypeService.findAll();
@@ -60,13 +61,20 @@ public class CouponCreate implements Serializable {
     }
 
     public String createAction(){
+        Optional<CouponType> couponType = couponTypeService.find(getCouponType());
+
         Coupon tempCoupon = Coupon.builder()
                 .price(getPrice())
                 .rate(getRate())
                 .state(getState())
-                .couponType(couponTypeService.find("AKO").get())
                 .value(getValue())
                 .build();
+
+        if(couponType.isPresent()){
+            tempCoupon.setCouponType(couponType.get());
+        } else {
+            tempCoupon.setCouponType(couponTypeService.find("AKO").get());
+        }
         couponService.create(tempCoupon);
         String viewId = FacesContext.getCurrentInstance().getViewRoot().getViewId();
         return viewId + "?faces-redirect=true&includeViewParams=true";

@@ -2,6 +2,7 @@ package pl.pg.eti.jee.bestbet.datastore;
 
 
 import lombok.extern.java.Log;
+import pl.pg.eti.jee.bestbet.coupon.entity.CouponState;
 import pl.pg.eti.jee.bestbet.coupon.entity.bet.entity.Bet;
 import pl.pg.eti.jee.bestbet.coupon.entity.Coupon;
 import pl.pg.eti.jee.bestbet.coupontype.entity.CouponType;
@@ -130,15 +131,41 @@ public class DataStore {
              .map(CloningUtility::clone);
     }
 
+    public Optional<Coupon> findByCouponTypeAndId(CouponType couponType, Long id) {
+        return coupons.stream()
+                .filter(coupon -> coupon.getCouponType().equals(couponType) && coupon.getId().equals(id))
+                .findFirst()
+                .map(CloningUtility::clone);
+    }
+
     public synchronized void createCoupon(Coupon coupon) throws IllegalArgumentException {
         coupon.setId(findAllCoupons().stream().mapToLong(Coupon::getId).max().orElse(0) + 1);
+
+        if(coupon.getState().equals(CouponState.WON)){
+            coupon.setValue((float) (coupon.getPrice()*coupon.getRate()));
+        }else{
+            coupon.setValue(0f);
+        }
+
         coupons.add(coupon);
+    }
+
+    public synchronized void createCoupon(Coupon coupon, CouponType couponType) throws IllegalArgumentException {
+        coupon.setCouponType(couponType);
+        createCoupon(coupon);
     }
 
     public synchronized void updateCoupon(Coupon coupon) throws IllegalArgumentException {
         findCoupon(coupon.getId()).ifPresentOrElse(
                 original -> {
                     coupons.remove(original);
+
+                    if(coupon.getState().equals(CouponState.WON)){
+                        coupon.setValue((float) (coupon.getPrice()*coupon.getRate()));
+                    }else{
+                        coupon.setValue(0f);
+                    }
+
                     coupons.add(coupon);
                 },
                 () -> {
@@ -178,4 +205,27 @@ public class DataStore {
                 () -> couponTypes.add(couponType));
     }
 
+    public synchronized void updateCouponType(CouponType entity) throws IllegalArgumentException{
+        findCouponType(entity.getName()).ifPresentOrElse(
+                original -> {
+                    couponTypes.remove(original);
+                    couponTypes.add(entity);
+                },
+                () -> {
+                    throw new IllegalArgumentException(
+                            String.format("The coupon with name \"%s\" does not exist", entity.getName()));
+                });
+    }
+
+    public synchronized void deleteCouponType(String name) throws IllegalArgumentException{
+        findCouponType(name).ifPresentOrElse(
+                original -> {
+                    couponTypes.remove(original);
+                },
+                () -> {
+                    throw new IllegalArgumentException(
+                            String.format("The coupon with name \"%s\" does not exist", name));
+                }
+        );
+    }
 }

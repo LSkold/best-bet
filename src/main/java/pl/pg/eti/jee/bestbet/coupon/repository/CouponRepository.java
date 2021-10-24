@@ -49,4 +49,11 @@ public class CouponRepository implements Repository<Coupon, Long> {
         return store.findAllCouponsByCouponType(couponType);
     }
 
+    public Optional<Coupon> findByCouponTypeAndId(CouponType couponType, Long id) {
+        return store.findByCouponTypeAndId(couponType,id);
+    }
+
+    public void createWithSpecifiedCouponType(Coupon coupon, CouponType couponType) {
+        store.createCoupon(coupon,couponType);
+    }
 }

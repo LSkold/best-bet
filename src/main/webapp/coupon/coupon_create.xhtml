@@ -23,7 +23,13 @@
                 </h:selectOneMenu>
                 <br/>
                 <br/>
-                <h:commandButton class="ui-control ui-button" value="Update"
+                <h:selectOneMenu value="#{couponCreate.couponType}">
+                    <f:selectItem itemValue="AKO" itemLabel="AKO"/>
+                    <f:selectItem itemValue="AKO-LIVE" itemLabel="AKO-LIVE"/>
+                </h:selectOneMenu>
+                <br/>
+                <br/>
+                <h:commandButton class="ui-control ui-button" value="Create"
                                  action="#{couponCreate.createAction()}"/>
             </h:form>
         </article>

@@ -36,9 +36,11 @@ public class CouponTypeRepository implements Repository<CouponType, String> {
 
     @Override
     public void delete(CouponType entity) {
+        store.deleteCouponType(entity.getName());
     }
 
     @Override
     public void update(CouponType entity) {
+        store.updateCouponType(entity);
     }
 }

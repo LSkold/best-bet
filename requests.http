@@ -1,57 +1,106 @@
-
-GET http://localhost:9080/best-bet/api/users
-
-###
-
-GET http://localhost:9080/best-bet/api/users/lauren
+GET http://localhost:9080/best-bet/api/coupontypes
 
 ###
 
-GET http://localhost:9080/best-bet/api/users/pablo
+GET http://localhost:9080/best-bet/api/coupontypes/AKO
 
 ###
 
-GET http://localhost:9080/best-bet/api/users/luke
+GET http://localhost:9080/best-bet/api/coupons
 
 ###
 
-POST http://localhost:9080/best-betT/api/avatars/luke
-Content-Type: multipart/form-data; boundary=boundary
-
---boundary
-Content-Disposition: form-data; name="avatar"; filename="koala.jpg'
-
-< ../../src/main/resources/avatars/koala.jpg
---boundary--
+GET http://localhost:9080/best-bet/api/coupons/1
 
 ###
 
-GET http://localhost:9080/best-bet/api/avatars/luke
+GET http://localhost:9080/best-bet/api/coupontypes/AKO/coupons
 
 ###
 
-PUT http://localhost:9080/best-bet/api/avatars/luke
-Content-Type: multipart/form-data; boundary=boundary
-
---boundary
-Content-Disposition: form-data; name="avatar"; filename="Kangaroo.jpg'
-
-< ../../src/main/resources/avatars/Kangaroo.jpg
---boundary--
+GET http://localhost:9080/best-bet/api/coupontypes/AKO/coupons/1
 
 ###
 
-PUT http://localhost:9080/best-bet/api/avatars/luke
-Content-Type: multipart/form-data; boundary=boundary
+POST http://localhost:9080/best-bet/api/coupontypes
+Content-Type: application/json
 
---boundary
-Content-Disposition: form-data; name="avatar"; filename="kangur.jpg'
+{
+  "name": "SOLO",
+  "description": "The bet on the outcome of only one sport event",
+  "isLive": false
+}
 
-< ../../src/main/resources/avatars/kangur.jpg
---boundary--
+###
+
+DELETE http://localhost:9080/best-bet/api/coupontypes/AKO/coupons/1
 
 ###
 
-DELETE http://localhost:9080/best-bet/api/avatars/luke
+GET http://localhost:9080/best-bet/api/coupontypes/SOLO
 
 ###
+
+POST http://localhost:9080/best-bet/api/coupontypes/SOLO/coupons
+Content-Type: application/json
+
+{
+  "rate": 2.53,
+  "price": 200,
+  "state": "WON"
+}
+
+###
+#
+#GET http://localhost:9080/best-bet/api/users/lauren
+#
+####
+#
+#GET http://localhost:9080/best-bet/api/users/pablo
+#
+####
+#
+#GET http://localhost:9080/best-bet/api/users/luke
+#
+####
+#
+#POST http://localhost:9080/best-betT/api/avatars/luke
+#Content-Type: multipart/form-data; boundary=boundary
+#
+#--boundary
+#Content-Disposition: form-data; name="avatar"; filename="koala.jpg'
+#
+#< ../../src/main/resources/avatars/koala.jpg
+#--boundary--
+#
+####
+#
+#GET http://localhost:9080/best-bet/api/avatars/luke
+#
+####
+#
+#PUT http://localhost:9080/best-bet/api/avatars/luke
+#Content-Type: multipart/form-data; boundary=boundary
+#
+#--boundary
+#Content-Disposition: form-data; name="avatar"; filename="Kangaroo.jpg'
+#
+#< ../../src/main/resources/avatars/Kangaroo.jpg
+#--boundary--
+#
+####
+#
+#PUT http://localhost:9080/best-bet/api/avatars/luke
+#Content-Type: multipart/form-data; boundary=boundary
+#
+#--boundary
+#Content-Disposition: form-data; name="avatar"; filename="kangur.jpg'
+#
+#< ../../src/main/resources/avatars/kangur.jpg
+#--boundary--
+#
+####
+#
+#DELETE http://localhost:9080/best-bet/api/avatars/luke
+#
+####

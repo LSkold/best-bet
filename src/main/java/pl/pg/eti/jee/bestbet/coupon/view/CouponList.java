@@ -39,7 +39,7 @@ public class CouponList implements Serializable {
     public CouponsModel getCouponsByCouponType(String couponType) {
         Optional<CouponType> couponTypeToFind = couponTypeService.find(couponType);
         if(couponTypeToFind.isPresent()){
-            if(coupons == null) coupons = CouponsModel.entityToModelMapper().apply(couponService.findAllByCouponTypeName(couponTypeToFind.get()));
+            if(coupons == null) coupons = CouponsModel.entityToModelMapper().apply(couponService.findAllByCouponType(couponTypeToFind.get()));
             return coupons;
         }
         return null;

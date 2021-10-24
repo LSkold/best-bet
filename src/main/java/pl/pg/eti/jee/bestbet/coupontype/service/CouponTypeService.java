@@ -31,6 +31,13 @@ public class CouponTypeService {
     }
 
     public void create(CouponType couponType){
+        System.out.print(couponType);
         couponTypeRepository.create(couponType);
+    }
+    public void delete(CouponType couponType){
+        couponTypeRepository.delete(couponType);
+    }
+    public void update(CouponType couponType){
+        couponTypeRepository.update(couponType);
     }
 }

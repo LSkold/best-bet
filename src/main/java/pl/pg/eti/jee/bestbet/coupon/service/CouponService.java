@@ -27,11 +27,13 @@ public class CouponService {
 
     public Optional<Coupon> find(Long id) { return couponRepository.find(id); }
 
+    public Optional<Coupon> findByCouponTypeAndId(CouponType couponType, Long id) {return couponRepository.findByCouponTypeAndId(couponType,id);}
+
     public List<Coupon> findAll() {
         return couponRepository.findAll();
     }
 
-    public List<Coupon> findAllByCouponTypeName(CouponType couponType) {
+    public List<Coupon> findAllByCouponType(CouponType couponType) {
         return couponRepository.findAllByCouponType(couponType);
     }
 
@@ -45,4 +47,7 @@ public class CouponService {
         couponRepository.delete(couponRepository.find(id).orElseThrow());
     }
 
+    public void createWithCouponType(Coupon coupon, CouponType couponType){
+        couponRepository.createWithSpecifiedCouponType(coupon,couponType);
+    }
 }
